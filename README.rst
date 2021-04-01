@@ -32,15 +32,21 @@ Function Description
 
 - Returns predicted values for the desired number of days which is defined by the user.
 
+.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%201.png?raw=true
+
 2. ``df = get_stock_data(company)``
 ***********************************
 
 This function acquires data using the Yahoo Finance API for a particular duration which is specified by the user.
 
+.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%202.png?raw=true
+
 3. ``plot_stock_data(company)``
 *******************************
 
 This function visualises the stock prices for a particular duration specified by the user.
+
+.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%203.png?raw=true
 
 Variable Description:
 """""""""""""""""""""
@@ -51,21 +57,6 @@ prediction_days(int): Number of days that need to be taken into consideration fo
 days_pred(int): Number of days that we need projections for
 
 y_pred(array): Predictions for 'days_pred' number of days
-
-Sample Outputs
-""""""""""""""
-
-**stock_price_predict**
-
-.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%201.png?raw=true
-
-**get_stock_data**
-
-.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%202.png?raw=true
-
-**plot_stock_data**
-
-.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%203.png?raw=true
 
 Dependencies
 """"""""""""
