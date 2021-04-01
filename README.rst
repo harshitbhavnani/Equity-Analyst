@@ -52,13 +52,20 @@ days_pred(int): Number of days that we need projections for
 
 y_pred(array): Predictions for 'days_pred' number of days
 
-Output
-""""""
+Sample Outputs
+""""""""""""""
 
-.. image:: https://github.com/harshitbhavnani/Stock-Price-Predictor/blob/main/Screenshot%202021-03-27%20021305.png?raw=true
-           :alt: Output
-           :height: 350px
-           :width: 518px
+**stock_price_predict**
+
+.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%201.png?raw=true
+
+**get_stock_data**
+
+.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%202.png?raw=true
+
+**plot_stock_data**
+
+.. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%203.png?raw=true
 
 Dependencies
 """"""""""""
