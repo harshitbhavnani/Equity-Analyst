@@ -114,3 +114,5 @@ Harshit Bhavnani - harshit.bhavnani@gmail.com
 License
 """""""
 MIT
+
+**For further details, visit https://pypi.org/project/Equity-Analyst**
