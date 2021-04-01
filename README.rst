@@ -7,7 +7,15 @@ Equity Analyst is an Open-Source Python Package that uses a Deep Learning model 
 **Installing the Package**
 
     ``$ pip3 install equityanalyst``
+    
+**Importing all Functions from the package**
 
+    ``from equityanalyst import stock_price_predict``
+
+    ``from equityanalyst import get_stock_data``
+
+    ``from equityanalyst import plot_stock_data``
+    
 Function Description
 """"""""""""""""""""
 
@@ -33,15 +41,6 @@ This function acquires data using the Yahoo Finance API for a particular duratio
 *******************************
 
 This function visualises the stock prices for a particular duration specified by the user.
-
-**Importing all Functions from the package**
-
-    ``from equityanalyst import stock_price_predict``
-
-    ``from equityanalyst import get_stock_data``
-
-    ``from equityanalyst import plot_stock_data``
-
 
 Variable Description:
 """""""""""""""""""""
