@@ -6,8 +6,8 @@ Equity Analyst is an Open-Source Python Package that uses a Deep Learning model 
 
 **Installing the Package**
 
-    ``$ pip3 install equityanalyst``
-    
+    ``$ pip3 install Equity-Analyst``
+
 **Importing all Functions from the package**
 
     ``from equityanalyst import stock_price_predict``
@@ -15,7 +15,7 @@ Equity Analyst is an Open-Source Python Package that uses a Deep Learning model 
     ``from equityanalyst import get_stock_data``
 
     ``from equityanalyst import plot_stock_data``
-    
+
 Function Description
 """"""""""""""""""""
 
@@ -32,19 +32,27 @@ Function Description
 
 - Returns predicted values for the desired number of days which is defined by the user.
 
+|
+
 .. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%201.png?raw=true
+
 
 2. ``df = get_stock_data(company)``
 ***********************************
 
 This function acquires data using the Yahoo Finance API for a particular duration which is specified by the user.
 
+|
+
 .. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%202.png?raw=true
+
 
 3. ``plot_stock_data(company)``
 *******************************
 
 This function visualises the stock prices for a particular duration specified by the user.
+
+|
 
 .. image:: https://github.com/harshitbhavnani/Equity-Analyst/blob/main/Examples/Example%203.png?raw=true
 
@@ -96,9 +104,7 @@ The libraries that need to be installed for the package to work are as follows:
 
     ``$pip install scikit-learn``
 
-Use the following commands in Jupyter notebooks (if the libraries are already installed, this step could be skipped)
-
-**Note: The aforementioned commands can be used in Jupyter Notebooks and can be ignored if the libraries have already been installed. Replace the '$ pip3' by '!pip' if you are using Google Colaboratory.**
+**Note: The aforementioned commands can be used in Jupyter Notebooks and should be ignored if the libraries have already been installed. Replace the '$ pip3' by '!pip' if you are using Google Colaboratory.**
 
 Author:
 """""""
